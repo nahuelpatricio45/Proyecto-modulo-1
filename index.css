@@ -1,0 +1,38 @@
+.containr{
+position: relative !important;
+width: 1000000px !important;
+height: 500px !important;
+
+}
+.navcat{
+    position: absolute !important;
+   left: 10%;
+
+}
+.tarjetas{
+    position: absolute;
+    left: 200px;
+    width: 100% !important;
+}
+.card{
+position: relative;
+height: 180px !important;
+
+}
+.card-title{
+    position: absolute;
+   left: 18%;
+}
+.card-text{
+    position: absolute;
+    left: 18%;
+    bottom: 40%;
+}
+.btn{
+position: absolute;
+left: 30%;
+bottom: 10%;
+
+}
+
+
