@@ -1,11 +1,27 @@
+.navegador{
+    background-color: rgb(165, 28, 48);
+    box-shadow: 5px 5px 30px;
+    border-radius: 2px;
+    width: 100% !important;
+}
+.navegador1:hover{
+    color: aliceblue !important;
+
+}
+
+
 .principal{
+    position: absolute;
+    top: 11%;
 width: 100% !important;
+
 
 }
 .imagen{
     position: absolute;
 left: 0%;
 width: 40%;
+top: 10%;
 }
 .imagen1{
 width: 100%;
@@ -23,8 +39,15 @@ width: 100%;
     left: 45% !important;
     top: 20% !important;
 }
-
-
+.boton{
+    background-color: rgb(165, 28, 48) !important; 
+    box-shadow: 3px 3px 5px !important;
+   
+}
+.boton:hover{
+    background-color: rgb(200, 87, 87) !important;
+    box-shadow: 1px 1px 0px !important;
+}
 .descripcion{
 position: absolute !important;
 top: 80%;
@@ -50,12 +73,12 @@ flex-direction: column;
 }
 .especial{
     font-size: 15px;
-    color: rgb(7, 106, 245) ;
+    color: rgb(165, 28, 48) ;
     text-align: center;
     margin: 0%
 }
 .especialp{
-    color:rgb(7, 106, 245) ;
+    color:rgb(165, 28, 48) ;
     font-size: 40px;
     text-align: center;
     margin: 0%; 
@@ -66,9 +89,21 @@ flex-direction: column;
     align-items: center;
     justify-content: space-around;
     height: 100px;
+    border: solid rgb(165, 28, 48) !important;
+    border-radius: 10px;
+    border-width: 3px !important;
 
 }
 .lista{
     font-size: 20px;
-    color: green;
+    color: black;
+}
+
+
+@media (max-widht: 400px) {
+   .precios{
+    position: absolute;
+    top: 90% !important;
+    width: 20% !important;
+   } 
 }
