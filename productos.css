@@ -35,9 +35,9 @@ width: 100%;
     width: 55%;
 }
 .precios{
-    position: absolute !important;
-    left: 45% !important;
-    top: 20% !important;
+    position: absolute ;
+    left: 45%;
+    top: 20%;  
 }
 .boton{
     background-color: rgb(165, 28, 48) !important; 
@@ -89,9 +89,9 @@ flex-direction: column;
     align-items: center;
     justify-content: space-around;
     height: 100px;
-    border: solid rgb(165, 28, 48) !important;
+    border: solid rgb(165, 28, 48) ;
     border-radius: 10px;
-    border-width: 3px !important;
+    border-width: 3px ;
 
 }
 .lista{
@@ -99,11 +99,67 @@ flex-direction: column;
     color: black;
 }
 
+@media(  max-width:600px ){ 
 
-@media (max-widht: 400px) {
-   .precios{
-    position: absolute;
-    top: 90% !important;
-    width: 20% !important;
-   } 
+
+
+.navegador{
+    z-index: 100;
 }
+    .imagen{
+        width: 100%;
+        position: absolute ;
+        top: 50px;
+    }
+.titulo{
+    position: absolute !important;
+    top: 480px;
+    left: 0%;
+    text-align: center;
+    
+    width: 370px;
+}
+
+    .precios {
+        position: absolute ;
+        top: 100% ;
+        left:0%;
+        
+        
+    }
+   .cuotas{
+   border: none !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+   }
+   .interes{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 100%;
+    position: absolute;
+    top: 140px;
+
+   }
+    .garantia{
+        position: absolute;
+        top: 350px;
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+        width: 100%;
+    }
+
+.descripcion{
+    position: absolute;
+    top: 1500px;
+
+}
+
+}
+
+
+

@@ -1,22 +1,20 @@
-.containr{
-position: relative !important;
-width: 1000000px !important;
-height: 500px !important;
 
-}
-.navcat{
-    position: absolute !important;
-   left: 10%;
-
-}
 .tarjetas{
     position: absolute;
-    left: 200px;
-    width: 100% !important;
+    top: 15%;
+    left: 0px;
+    width: 1700px !important;
+    display: flex;
+    align-items: center;
 }
 .card{
 position: relative;
 height: 180px !important;
+box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+
+}
+.card-img-left{
+border: none !important;
 
 }
 .card-title{
@@ -26,11 +24,14 @@ height: 180px !important;
 .card-text{
     position: absolute;
     left: 18%;
-    bottom: 40%;
+    top: 29%;
+    color:rgb(165, 28, 48) !important;
+    font-size: 40px;
+   
 }
 .btn{
 position: absolute;
-left: 30%;
+left: 18%;
 bottom: 10%;
 
 }
