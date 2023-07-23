@@ -3,6 +3,7 @@
     box-shadow: 5px 5px 30px;
     border-radius: 2px;
     width: 100% !important;
+    color: black !important;
 }
 .navegador1:hover{
     color: aliceblue !important;
@@ -21,23 +22,24 @@ width: 100% !important;
     position: absolute;
 left: 0%;
 width: 40%;
-top: 10%;
+top: 190%;
 }
 .imagen1{
 width: 100%;
 
 }
 
-.titulo{
-    
+.titulo{   
     position: absolute;
     left: 45%;
     width: 55%;
+    top: 100%;  
 }
 .precios{
     position: absolute ;
     left: 45%;
-    top: 20%;  
+    top: 30%;  
+
 }
 .boton{
     background-color: rgb(165, 28, 48) !important; 
@@ -122,9 +124,10 @@ flex-direction: column;
 
     .precios {
         position: absolute ;
-        top: 100% ;
-        left:0%;
-        
+        top: 80% ;
+        left:5%;
+       
+        width: 380px;
         
     }
    .cuotas{
@@ -155,11 +158,9 @@ flex-direction: column;
 
 .descripcion{
     position: absolute;
-    top: 1500px;
+    top: 1300px;
 
 }
 
+
 }
-
-
-
