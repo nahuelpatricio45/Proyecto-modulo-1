@@ -124,9 +124,8 @@ flex-direction: column;
 
     .precios {
         position: absolute ;
-        top: 90% ;
+        top: 110% ;
         left:5%;
-       
         width: 380px;
         
     }
