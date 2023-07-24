@@ -12,8 +12,22 @@
     border-radius: 2px;
     width: 100% !important;
     color: black !important;
+    z-index: 10000 !important;
 }
 .navegador1:hover{
     color: aliceblue !important;
 
 }
+
+@media(max-width:600px){
+    .contenedor-icono i{
+        position: absolute  !important;
+        margin-left: 0%;
+        left: 88% !important;
+        top: 80%;
+        z-index: 100;
+        color: black;
+    }
+    }
+    
+
